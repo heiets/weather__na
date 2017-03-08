@@ -1,5 +1,4 @@
 //@import 'app/libs/normalize-css/normalize';
-//@import 'app/libs/font-awesome/scss/font-awesome';
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -141,6 +140,7 @@ body {
 .list {
   margin: 50px auto;
   max-width: 800px;
+  min-height: 30px;
   background-color: #fff;
   box-shadow: 3px 4px 5px -4px rgba(0, 0, 0, 0.75);
   ul {
@@ -166,4 +166,8 @@ body {
       }
     }
   }
+}
+.loading {
+  text-align: center;
+  font-size: 30px;
 }
